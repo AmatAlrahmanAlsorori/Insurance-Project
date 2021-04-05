@@ -204,8 +204,9 @@ public class Menu {
 
         }
     }
-
-
+    
+    
+    
     public Vehicle addVehicle(String vtype, String brand, String model, int vehicleno, int cardno, int driverlicenseno, double vprice) {
         Vehicle v = new Vehicle(vtype, brand, model, vehicleno, cardno, driverlicenseno, vprice);
         return v;
@@ -256,7 +257,6 @@ public class Menu {
         }
         return true;
     }
-
 
     public void search(int ID) {
         for (Customer o : customers) {
